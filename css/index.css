@@ -1,0 +1,153 @@
+header {
+  background-color: orange !important;
+}
+header > a {
+  margin-top: 4px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+header > a > img {
+  width: 35px;
+  height: 35px;
+}
+header .mui-title {
+  color: #fff;
+}
+.mui-content {
+  background-image: url(../img/bg.jpg);
+  background-size: 100% 100%;
+}
+.mui-content .mui-scroll {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.mui-content .mui-scroll .main {
+  width: 100%;
+  height: 420px;
+}
+.mui-content .mui-scroll .main p {
+  position: absolute;
+  transition: all 2s;
+}
+.mui-content .mui-scroll .main p:nth-child(1) {
+  color: white;
+  top: 10%;
+  left: 30%;
+  font-weight: 700;
+  font-size: 20px;
+}
+.mui-content .mui-scroll .main p:nth-child(2) {
+  color: yellowgreen;
+  top: 18%;
+  left: 45%;
+  font-weight: 700;
+  font-size: 30px;
+}
+.mui-content .mui-scroll .main p:nth-child(3) {
+  color: lightskyblue;
+  top: 25%;
+  left: 20%;
+  font-weight: 700;
+  font-size: 30px;
+}
+.mui-content .mui-scroll .main p:nth-child(4) {
+  color: hotpink;
+  top: 28%;
+  left: 35%;
+  font-weight: 700;
+  font-size: 50px;
+}
+.mui-content .mui-scroll .main p:nth-child(5) {
+  color: red;
+  top: 39%;
+  left: 20%;
+  font-weight: 700;
+  font-size: 50px;
+}
+.mui-content .mui-scroll .main p:nth-child(6) {
+  color: orange;
+  top: 50%;
+  left: 10%;
+  font-weight: 700;
+  font-size: 30px;
+}
+.mui-content .mui-scroll .main p:nth-child(7) {
+  color: blueviolet;
+  top: 56%;
+  left: 30%;
+  font-weight: 700;
+  font-size: 40px;
+}
+.mui-content .mui-scroll .main .result {
+  position: absolute;
+  transition: all 2s;
+  top: 40%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+.mui-content .mui-scroll > button {
+  min-width: 100px;
+}
+.mui-off-canvas-left {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12 {
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12 > p {
+  color: black;
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12 > .mui-switch {
+  margin-top: 4px;
+  line-height: 22px;
+  margin-right: 6px;
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12:first-child {
+  height: 100px;
+  background-color: #fff;
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12:first-child .head-img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  margin-top: -30px;
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12:first-child .head-img > img {
+  height: 60px;
+  width: 60px;
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12:first-child > h5 {
+  display: block;
+  color: #323232;
+  position: absolute;
+  top: 20px;
+  left: 106px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mui-off-canvas-left .mui-row .mui-col-xs-12:first-child > p {
+  display: block;
+  color: #242424;
+  position: absolute;
+  top: 47px;
+  left: 94px;
+  font-size: 10px;
+}

@@ -1,0 +1,24 @@
+.main{
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+}
+.main p{
+	color: #333;
+	text-indent:2em;
+	background-color: #fff;
+}
+header{
+	background-color: orange !important;
+}
+header>a{
+	color: white;
+}
+.mui-scroll{
+	background-color: #fff;
+}
+.mui-card-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

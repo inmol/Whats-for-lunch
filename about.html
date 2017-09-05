@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/about.css" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui(function() {
+				mui("header").on("tap", ".back", function() {
+					mui.openWindow({
+						url: 'index.html'
+					})
+				});
+				//	初始化y轴滚动
+				mui('.mui-scroll-wrapper').scroll({
+					deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable">
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 主页面标题 -->
+				<header class="mui-bar mui-bar-nav">
+					<a class="mui-icon mui-icon-back back mui-pull-left"></a>
+					<h1 class="mui-title">关于开发者</h1>
+				</header>
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<!-- 主界面具体展示内容 -->
+						<section class="main">
+							<p>感谢大家使用《中午吃什么》软件。《中午吃什么》软件是由 著名前端工程师——那个谁独立设计开发的一款饮食推荐软件。 本软件界面精美，功能齐全，使用简单。是一款老少皆宜， 苹果用户除外的优秀软件！
+							</p>
+							<div class="mui-card">
+								<!--内容区-->
+								<div class="mui-card-content"><img src="img/eat.gif"/></div>
+								<!--页脚，放置补充信息或支持的操作-->
+								<div class="mui-card-footer">中午吃什么?</div>
+							</div>
+							<p>
+								《中午吃什么》软件精美的界面得益设计师优秀的审美体验， 设计师秉承着“字要大、简单又很复杂、蓝底红字最好看、 logo很大又很小”等最前沿的设计理念，结合最时尚，最潮流 的元素，巧妙地设计出了这款接地气，又很富歪醒的软件。
+							</p>
+							<p>
+								由于界面设计太过于优秀，使得很多人忽略了本软件的强大功能。 我们的架构师——那个谁根据目前最火的人工智能、AR，VR等新技术， 设计了一套功能强大的大的饮食推荐软件。由于这些技术他一个都不 会，架构师那个谁师毅然决然地放弃了那些花哨的需求，化繁为简单， 设计出了这款瞎几把推荐的《中午吃什么》。
+							</p>
+							<p>
+								本软件只限于个人使用，不可作商业用途。目前《中午吃什么》软件 处于开发测试阶段，若因用户个人行为所产生安全问题（包括但不限于笑死， 摔手机，夫妻生活不协调），和一切法律纠纷，软件开发者——著名前端工程师： 那个谁一概不负责。《中午吃什么》软件所有素材来自于互联网，如有雷同， 那很凑巧。
+							</p>
+							<p> 附：开发者邮箱：1156938538@qq.com</p>
+							<p>备注：他还单身，性取向正常。</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

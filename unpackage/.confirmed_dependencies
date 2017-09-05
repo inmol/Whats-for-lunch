@@ -1,0 +1,31 @@
+{
+  "about.html": {
+    "href": "about.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/about.css",
+      "js/mui.min.js",
+      "img/eat.gif"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/index.css",
+      "js/zepto_1.1.3.js",
+      "js/index.js",
+      "img/logo.png",
+      "img/head-img.jpg"
+    ],
+    "refer": [
+      "about.html"
+    ],
+    "priority": 0
+  }
+}
